@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="nav-item" onclick="showContent('home')">Home</div>
+        <div class="nav-item" onclick="showContent('about')">About</div>
+        <div class="nav-item" onclick="showContent('experience')">Experience</div>
+        <div class="nav-item" onclick="showContent('certifications')">Certifications</div>
+        <div class="nav-item" onclick="showContent('contact')">Contact</div>
+    </div>
+
+    <div style="text-align: center-left" id="home" class="content">
+        <h1 class="center-left">I'm Prameela</h1>
+        <div class="flex-container">
+            <p class="center-left">Experienced frontend developer with a passion for creating visually stunning and user-friendly websites.</p>
+            <img src="myProfile.jpg" alt="Prameela's Profile" class="right">
+		</div>
+		<div>
+			<a class="center-left" id="resume-link" href="prameela3.docx" target="_blank">View Resume</a>
+        </div>
+    </div>
+
+    <div id="about" class="content">
+		<h1 class="center">About Me</h1>
+        <p>Hello, I'm Prameela, a passionate and ambitious web developer currently pursuing Bachelor Of technology at Aditya Institute Of Technology And Management. Hailing from Palasa, I have always been fascinated by the intersection of technology and creativity.I am well-versed in HTML, CSS and JavaScript , and other cutting edge frameworks and libraries,which allows me to implement interactive features. Additionally, I have experirence working with content management systems (CMS) like WordPress....</p>
+    </div>
+
+    <div id="experience" class="content">
+        <h1 class="center">Experience</h1>
+        <h3 class="left">Frontend</h3>
+        <p class="left">HTML, CSS, JavaScript</p>
+        <h3 class="left">Backend</h3>
+        <p class="left">Java, Python, C, C++</p>
+    </div>
+
+    <div id="certifications" class="content">
+		<h1 class="center">Certifications</h1>
+		<div class="box">
+			<img src="html.jpg" alt="Certified By: MindLuster" class="certification">
+		</div>
+		<div class="box">
+			<img src="geeksforgeeks.jpg" alt="Certified by: GEEKS FOR GEEKS" class="certification">
+		</div>
+		<div class="box">
+			<img src="growbyteTechnologies.jpg" alt="Certified by: GROWBYTE TECHNOLOGIES" class="certification">
+		</div>
+		<div class="box">
+			<img src="infosis.jpg" alt="Certified by: INFOSIS SPRINGBOARD" class="certification">
+		</div>
+    </div>
+
+    <div id="contact" class="content">
+        <h1 class="center">Contact Me</h1>
+        <p class="center">Feel free to reach out to me through the following channels. I'm always open to new opportunities and collaborations.</p>
+			<p class="left">Email: donkaprameela@gmail.com</p>
+			<p class="right">Phone: +91 9052270903</p>
+		<div class="icons">
+            <!-- Add your boxicons or any other icon links here -->
+			<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+			<box-icon type='logo' name='linkedin'></box-icon>
+			<box-icon type='logo' name='github'></box-icon>
+			<box-icon name='instagram' type='logo' ></box-icon>
+		</div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

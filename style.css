@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;
+	color: black;
+}
+
+.navbar {
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+	
+.nav-item {
+    color: white;
+    cursor: pointer;
+	text-decoration: underline;
+}
+
+.content {
+	margin-left:30px;
+	text-align: center-left;
+    display: scroll;
+	margin-bottom: 500px;
+	color: black;
+	font-style: mangolia script ;
+	font-size: 24px;
+	background-color: none;
+	
+}
+
+.resume-link {
+	display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+}
+
+.resume-link:hover {
+	background-color: #2980b9;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container img {
+	border-radius: 70%;
+	width: 270px;
+	margin-right: 50px;
+	margin-top: -10px;
+	box-shadow: 5px 5px 10px #111;
+	border: 2px solid black;
+}
+
+
+
+.box img {
+	box-shadow: 5px 5px 10px #111;
+	width: 300px;
+	border: 2px solid black;
+	border-style: rounded rectangle;
+	padding-top: 0;
+	padding-bottom: 5px;
+	padding-left:5px;
+	padding-right: 5px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.certification {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+	border: 20px;
+	margin-right: 500px;
+	margin-left: 500px;
+	margin-bottom: 50px;
+	border-color: grey;
+}
+
+.box:hover {
+	transform: scale(1.3);
+	z-index: 2;
+	opacity: 1;
+}
+	
+.icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Add styling for icons as needed */
